@@ -1,0 +1,86 @@
+{
+    "skills": [
+        {
+            "id": "1",
+            "name": "HTML",
+            "description": "Saya telah menguasai HTML dengan baik. Saya memiliki pemahaman yang kuat tentang struktur dasar HTML, seperti penggunaan elemen, atribut, dan tag.",
+            "icon": "html5"
+        },
+        {
+            "id": "2",
+            "name": "CSS",
+            "description": "Saya sudah cukup menguasai CSS. Saya memiliki pemahaman yang kuat tentang selektor CSS, properti, dan nilai-nilai yang digunakan dalam mengatur tampilan dan gaya halaman web.",
+            "icon": "css"
+        },
+        {
+            "id": "3",
+            "name": "Java Script",
+            "description": "Saya sudah memiliki pemahaman dasar dalam JavaScript. Saya mengerti konsep dasar seperti variabel, tipe data, operator, dan pengendalian aliran.",
+            "icon": "js"
+        },
+        {
+            "id": "4",
+            "name": "SCSS (SASS)",
+            "description": "SCSS adalah preprocessor CSS yang memungkinkan saya menulis kode CSS dengan lebih efisien dan terstruktur. Saya memahami konsep dasar seperti variabel, nesting, mixin, dan extend yang ada di SCSS. ",
+            "icon": "sass"
+        },
+        {
+            "id": "6",
+            "name": "Tailwind CSS",
+            "description": "Saya sudah memiliki pemahaman dasar tentang Tailwind CSS. Tailwind CSS adalah sebuah framework CSS yang memungkinkan saya untuk dengan cepat membangun antarmuka web yang responsif dan menarik."
+        },
+        {
+            "id": "7",
+            "name": "GIT",
+            "description": "Git adalah sistem kontrol versi yang sangat penting dalam pengembangan perangkat lunak dan kolaborasi tim. Saya memahami konsep dasar Git seperti inisialisasi repository, commit, branch, dan merge."
+        },
+        {
+            "id": "8",
+            "name": "Vite",
+            "description": "Walaupun saya masih dalam tahap awal mempelajari Vite, saya sangat antusias untuk terus meningkatkan pemahaman saya dan mengoptimalkan penggunaan Vite dalam pengembangan proyek web saya."
+        },
+        {
+            "id": "9",
+            "name": "React TypeScript",
+            "description": "Saya memahami bagaimana membuat komponen React dengan TypeScript, menggunakan antarmuka (interface) untuk mendefinisikan struktur properti dan state, serta menentukan tipe data yang diharapkan."
+        }
+    ],
+
+    "sertificateCard": [
+        {
+            "id": "1",
+            "judul": "HTML",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad dignissimos nisi cum assumenda fugit unde soluta error nesciunt natus impedit!"
+        },
+        {
+            "id": "2",
+            "judul": "HTML",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad dignissimos nisi cum assumenda fugit unde soluta error nesciunt natus impedit!"
+        },
+        {
+            "id": "3",
+            "judul": "HTML",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad dignissimos nisi cum assumenda fugit unde soluta error nesciunt natus impedit!"
+        },
+        {
+            "id": "4",
+            "judul": "HTML",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad dignissimos nisi cum assumenda fugit unde soluta error nesciunt natus impedit!"
+        },
+        {
+            "id": "5",
+            "judul": "HTML",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad dignissimos nisi cum assumenda fugit unde soluta error nesciunt natus impedit!"
+        },
+        {
+            "id": "6",
+            "judul": "HTML",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad dignissimos nisi cum assumenda fugit unde soluta error nesciunt natus impedit!"
+        },
+        {
+            "id": "7",
+            "judul": "HTML",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad dignissimos nisi cum assumenda fugit unde soluta error nesciunt natus impedit!"
+        }
+    ]
+}

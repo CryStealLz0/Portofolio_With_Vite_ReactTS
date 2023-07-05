@@ -1,0 +1,167 @@
+@mixin autoTexts() {
+    .autoText {
+        display: flex;
+        position: relative;
+        // border: 1px solid red;
+        margin-top: 0px;
+        // margin-top: 100px;
+        width: 100%;
+        height: 300px;
+
+        @keyframes hilang {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 0;
+            }
+        }
+
+        @keyframes typing {
+            to {
+                width: 0%;
+            }
+        }
+
+        @keyframes stop {
+            99% {
+                opacity: 1;
+            }
+            100% {
+                opacity: 0;
+            }
+        }
+
+        @keyframes line {
+            50% {
+                color: transparent;
+            }
+        }
+
+        @keyframes hiden {
+            100% {
+                z-index: -10;
+            }
+        }
+        .text-box {
+            display: flex;
+            flex-direction: column;
+            position: absolute;
+            width: 600px;
+            height: 250px;
+            top: 0;
+            left: 10px;
+            p {
+                position: relative;
+                font-family: "Incosolata", Consolas, monospace;
+                // font-family: Arial, Helvetica, sans-serif;
+                color: white;
+            }
+            .text-auto {
+                margin: 5px 0px;
+                &::after {
+                    content: "|";
+                    position: absolute;
+                    background-color: #222;
+                    color: white;
+                }
+                &.text-type-1 {
+                    span {
+                        color: aqua;
+                    }
+                    &::after {
+                        right: 52%;
+                        width: 48%;
+                        animation: typing 4s steps(30) forwards,
+                            line 0.8s infinite, stop 6s forwards;
+                    }
+                }
+                &.text-type-2 {
+                    &::before {
+                        content: "|";
+                        position: absolute;
+                        left: 0%;
+                        width: 100%;
+                        background-color: #222;
+                        color: #222;
+                        z-index: 99999;
+                        animation: hilang 999999s;
+                        animation-delay: 6s;
+                    }
+                    &::after {
+                        right: 4%;
+                        width: 96%;
+                        animation: typing 6s steps(45) forwards,
+                            line 0.8s infinite, stop 6s forwards;
+                        animation-delay: 6s;
+                    }
+                }
+                &.text-type-3 {
+                    &::before {
+                        content: "|";
+                        position: absolute;
+                        left: 0%;
+                        width: 100%;
+                        background-color: #222;
+                        color: #222;
+                        z-index: 99999;
+                        animation: hilang 99999s;
+                        animation-delay: 12s;
+                    }
+                    &::after {
+                        right: 6%;
+                        width: 94%;
+                        animation: typing 6s steps(45) forwards,
+                            line 0.8s infinite, stop 6s forwards;
+                        animation-delay: 12s;
+                    }
+                }
+                &.text-type-4 {
+                    a {
+                        text-decoration: none;
+                        color: aqua;
+                    }
+                    &::before {
+                        content: "|";
+                        position: absolute;
+                        right: 0%;
+                        width: 100%;
+                        background-color: #222;
+                        color: #222;
+                        z-index: 99999;
+                        animation: hilang 9999s;
+                        animation-delay: 18s;
+                    }
+                    &::after {
+                        right: 22.8%;
+                        width: 77.2%;
+                        animation: typing 6s steps(45) forwards,
+                            line 0.8s infinite;
+                        animation-delay: 18s;
+                    }
+                }
+            }
+            .auto-text-button {
+                width: 250px;
+                height: 50px;
+                font-style: bold;
+                font-size: 1.3rem;
+                font-weight: bold;
+                margin-top: 3rem;
+                background-color: transparent;
+                color: white;
+                border-radius: 15px;
+                border: 1px solid white;
+                box-shadow: 2px 2px 4px aqua;
+                cursor: pointer;
+                transition: 1s;
+                &:hover {
+                    background-color: #00cdd4;
+                    color: white;
+                    text-shadow: 1px 1px 5px black;
+                    box-shadow: 2px 2px 5px black;
+                }
+            }
+        }
+    }
+}

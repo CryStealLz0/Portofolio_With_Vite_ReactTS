@@ -1,0 +1,56 @@
+@import "./sideBar/sideBar.scss";
+@import "./navBar/navBar.scss";
+@import "./profil/profil.scss";
+@import "./skill/skill.scss";
+@import "./sertifikat/sertifikatCard.scss";
+@import "./sertifikat/sertifikat.scss";
+
+* {
+    padding: 0;
+    margin: 0;
+    // border: 1px solid red;
+}
+
+body {
+    background-image: url(../assets/img/3185113.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    scroll-behavior: smooth;
+}
+
+.background {
+    background: linear-gradient(155deg, #222 50%, #cbe4de00);
+}
+header {
+    color: white;
+    position: fixed;
+    @include sideBars();
+}
+
+main {
+    max-width: 1200px;
+    height: 100vh;
+    margin-left: 120px;
+    flex-wrap: wrap;
+    overflow: auto;
+    // border: 1px solid red;
+    // background-color: #444444;
+    &::-webkit-scrollbar {
+        width: 5px;
+    }
+
+    &::-webkit-scrollbar-track {
+        background: #2c3333;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background: #cbe4de;
+        border-radius: 8px;
+    }
+    @include navBars();
+    @include profils();
+    @include skills();
+    @include sertifikatCards();
+    @include sertifikats();
+}

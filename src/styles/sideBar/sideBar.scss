@@ -1,0 +1,93 @@
+
+@mixin sideBars() {
+    nav {
+        background: #2c3333;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        text-align: center;
+        width: 120px;
+        height: 100vh;
+        box-sizing: border-box;
+        padding: 1rem 0rem 1rem 0rem;
+        .logo {
+            padding: 1rem 0;
+            border-bottom: 5px solid #0d7377;
+            h1 {
+                font-weight: bold;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+        }
+        ul {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: end;
+            height: 70%;
+            li {
+                position: relative;
+                display: flex;
+                height: 70px;
+                width: 100px;
+                // background: #222;
+                justify-content: center;
+                align-items: center;
+                border-radius: 50px 0px 0px 50px;
+                box-sizing: border-box;
+                border-left: 4px solid #0d7377;
+                &:hover {
+                    border-left: 4px solid #00cdd4;
+                    background: #222;
+                }
+                &:hover a {
+                    color: white;
+                }
+                &:hover ::before {
+                    background: #2c3333;
+                    box-shadow: 5px 5px 0px 5px #222;
+                }
+                &:hover ::after {
+                    background: #2c3333;
+                    box-shadow: 5px -5px 0px 5px #222;
+                }
+                ::before {
+                    content: " ";
+                    display: block;
+                    position: absolute;
+                    background: transparent;
+                    box-shadow: 0px 0px 0px 0px #2c3333;
+                    top: 0;
+                    right: 0;
+                    width: 30px;
+                    height: 20px;
+                    margin-top: -20px;
+                    border-radius: 0 0 100% 0;
+                    z-index: 1;
+                }
+                ::after {
+                    content: " ";
+                    display: block;
+                    position: absolute;
+                    // background: transparent;
+                    // background: red;
+                    bottom: 0;
+                    right: 0;
+                    width: 30px;
+                    height: 20px;
+                    margin-bottom: -20px;
+                    border-radius: 0 100% 0 0;
+                    z-index: 1;
+                }
+                list-style: none;
+                a {
+                    text-decoration: none;
+                    color: #cbe4de;
+                    height: 35px;
+                }
+            }
+        }
+        a {
+            color: white;
+        }
+    }
+}
