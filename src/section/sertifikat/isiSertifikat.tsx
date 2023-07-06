@@ -1,6 +1,9 @@
 export default function IsiSertifikat() {
     return (
         <article className="sertifikat">
+            <button className="sertifikat-readmore">
+                Read More Sertifikat
+            </button>
             <div className="containerSertifikatLeft">
                 <div className="imageSertifikat">
                     <img src="./src/assets/img/aws1.jpeg" alt="" />

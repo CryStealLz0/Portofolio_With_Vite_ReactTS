@@ -26,7 +26,7 @@
         },
         {
             "id": "6",
-            "name": "Tailwind CSS",
+            "name": "Tailwind",
             "description": "Saya sudah memiliki pemahaman dasar tentang Tailwind CSS. Tailwind CSS adalah sebuah framework CSS yang memungkinkan saya untuk dengan cepat membangun antarmuka web yang responsif dan menarik."
         },
         {
@@ -41,7 +41,7 @@
         },
         {
             "id": "9",
-            "name": "React TypeScript",
+            "name": "React TS",
             "description": "Saya memahami bagaimana membuat komponen React dengan TypeScript, menggunakan antarmuka (interface) untuk mendefinisikan struktur properti dan state, serta menentukan tipe data yang diharapkan."
         }
     ],
