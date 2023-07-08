@@ -103,8 +103,13 @@
                             // border: 1px solid aqua;
                             background-color: white;
                             opacity: 1;
-                            border-radius: 15px;
-                            border: 2px solid black;
+                            // border-radius: 2px;
+                            border-top: 7px solid #888;
+                            border-left: 7px solid #999;
+                            border-bottom: 7px solid #333;
+                            border-right: 7px solid #333;
+                            border: inset 10px solid black;
+
                             box-shadow: -25px 0px 15px -20px black,
                                 2px 2px 5px black;
                             transform: translateY(0px);
@@ -115,7 +120,8 @@
                             transform: rotate(5deg);
                         }
                         &:hover .card-isi {
-                            background-color: #00cdd4;
+                            background-color: #111;
+                            color: white;
                             transform: translateY(-10px);
                         }
                     }
