@@ -109,9 +109,8 @@
                             border-bottom: 7px solid #333;
                             border-right: 7px solid #333;
                             border: inset 10px solid black;
-
                             box-shadow: -25px 0px 15px -20px black,
-                                2px 2px 5px black;
+                                2px 2px 5px black, inset 0px 0px 0px 1px black;
                             transform: translateY(0px);
                             transition: all 0.2s ease-in-out;
                         }
