@@ -26,6 +26,7 @@ function SertifikatCard({ sertificateCardData }: ISertificateCardProps) {
                                         <div className="card-isi">
                                             <div className="isi">
                                                 <h3>{SertificateCard.judul}</h3>
+                                                <h4>Web Developer Pemula</h4>
                                                 <p>
                                                     {
                                                         SertificateCard.description
