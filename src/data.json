@@ -49,7 +49,7 @@
     "sertificateCard": [
         {
             "id": "1",
-            "judul": "HTML",
+            "judul": "Sertficate",
             "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad dignissimos nisi cum assumenda fugit unde soluta error nesciunt natus impedit!"
         },
         {
@@ -59,12 +59,12 @@
         },
         {
             "id": "3",
-            "judul": "HTML",
+            "judul": "CSS",
             "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad dignissimos nisi cum assumenda fugit unde soluta error nesciunt natus impedit!"
         },
         {
             "id": "4",
-            "judul": "HTML",
+            "judul": "JS",
             "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad dignissimos nisi cum assumenda fugit unde soluta error nesciunt natus impedit!"
         },
         {
