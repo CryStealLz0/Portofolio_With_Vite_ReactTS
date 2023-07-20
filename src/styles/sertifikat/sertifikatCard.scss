@@ -54,7 +54,7 @@
                         color: #cbe4de;
                     }
                     p {
-                        font-size: 14px;
+                        font-size: 12px;
                         border-bottom: 5px solid #0d7377;
                         padding-bottom: 2rem;
                         color: #cbe4de;
@@ -119,8 +119,8 @@
                             transform: rotate(5deg);
                         }
                         &:hover .card-isi {
-                            background-color: #111;
-                            color: white;
+                            background-color: #2c3333;
+                            color: #cbe4de;
                             transform: translateY(-10px);
                         }
                     }
